@@ -1,0 +1,29 @@
+using System;
+namespace primeno
+{
+   class program
+   {
+      public static void Main (String [] args)
+      {
+           int a=0;
+           Console.WriteLine("enter a no:");
+           int n = Convert.ToInt32(Console.ReadLine());
+           for(int i=1;i<=n;i++)
+           {
+               if(n%i==0)
+               {
+                     a++;
+               }
+           }
+          if(a==2)
+          {
+              Console.WriteLine("it a prime no"+n);
+          }
+          else
+          {
+              Console.WriteLine(" it a not prime no");
+          }
+       }
+    }
+}
+

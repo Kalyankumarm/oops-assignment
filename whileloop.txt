@@ -1,0 +1,17 @@
+using System;
+namespace loop
+{
+     class program
+     {
+         static void Main(string[] args)
+         {
+             int i=0;
+             Console.WriteLine("enter a no:");
+             int n=Convert.ToInt32( Console.ReadLine());
+             while(i<=n)
+             {
+                 Console.WriteLine(i);
+             }
+          }
+     }
+}

@@ -1,0 +1,40 @@
+using System;
+namespace arithematic
+{
+    class program
+    {
+        static void Main(string [] args)
+        {
+        int a = 10,b = 20;
+        Console.WriteLine("enter a choice:");
+        int ch = Convert.ToInt32(Console.ReadLine());
+        switch(ch)
+        {
+           case 1:
+            
+            Console.WriteLine(" addtion "+(a+b));
+            break;
+            
+            case 2:
+            
+            Console.WriteLine(" subtraction "+(a-b));
+            break;
+            
+            case 3:
+            
+            Console.WriteLine(" mulitplication "+(a*b));
+            break;
+            
+            case 4:
+            
+            Console.WriteLine(" division "+(a/b));
+            break;
+            
+            case 5:
+            
+            Console.WriteLine(" modulus "+(a%b));
+            break;
+        }   
+        }
+    }
+}

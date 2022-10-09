@@ -1,0 +1,23 @@
+using System;
+namespace one
+{
+  class conditional
+  {
+    static void Main ( string[] args)
+    {
+        int a= 10,b=20;
+        if(a>b)
+              {
+               Console.WriteLine("a is greater than ");
+              }
+        else
+            { 
+            Console.WriteLine(" b is greater than");
+            }
+           
+    }
+         
+           
+  }
+}
+    

@@ -1,0 +1,21 @@
+using System;
+namespace Fibonacciseries
+{
+   class program 
+   {
+     static void Main ( String [] args)
+     {
+        int val1=0,val2=1,val3;
+        Console.WriteLine("enter a number:");
+        int n= Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(val1+" "+val2+" ");
+        for(int i=2;i<n;++i)
+        {
+            val3=val1+val2;
+            Console.WriteLine(val3+" ");
+            val1=val2;
+            val2=val3;
+        }
+    }
+  }
+}

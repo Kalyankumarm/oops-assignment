@@ -1,0 +1,28 @@
+using System;
+namespace Palindromenumber
+{
+    class program
+    {
+       static void Main ( String [] args)
+       {
+           int n,temp,sum=0,r;
+           Console.WriteLine("enter a no");
+           n = Convert.ToInt32(Console.ReadLine());
+           temp=n;
+           while (n>0)
+           {
+              r=n%10;
+              sum=(sum*10)+r;  
+              n=n/10;
+           }
+          if(temp==sum)
+          { 
+              Console.WriteLine("number is Palindrome"+n );
+          }
+          else
+          { 
+              Console.WriteLine("number ie not Palindrome" );
+          }
+       }
+    }
+}
